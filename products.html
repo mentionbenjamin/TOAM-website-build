@@ -1,0 +1,399 @@
+<!--- The Opticians At Marchmont Products Page --->
+
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Products</title>
+
+<meta    charset="utf-8">
+<meta http-equiv="X-UA-Compatible"         content="IE=edge">
+<meta       name="viewport"                content="width=device-width, initial-scale=1.0">
+<link       type="image/png" rel="icon"       href="favicon.png"/>
+<link       type="text/css"  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+<link       type="text/css"  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400">
+<script     type="text/javascript"             src="jquery-1.12.3.min.js"></script>
+<link rel="stylesheet/less" type="text/css">
+
+</head>
+
+<style>
+
+/* --- NAVIGATION BAR START --- */
+
+.toamlogo img {
+  width: 340px;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+.nav-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 17px;
+  width: 60%;
+  float: right;
+}
+.nav-grid-container>div {
+  font-size: 18px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding: 10px 0;
+}
+a.nav-link, a.nav-link:visited {
+  text-decoration: none;
+  : all 0.2s ease 0.2s;
+  opacity: 0.8;
+}
+a.nav-link:hover {
+  text-decoration: none;
+  color: pink;
+  opacity: 1;
+}
+
+/* --- NAVIGATION BAR END --- */
+
+
+
+
+
+
+.free-grid-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.free-box {
+  position: relative;
+  width: 600px;
+  max-width: 100%;
+  margin: 10px;
+
+}
+.text-no-hover {
+	width: 600px;
+  height: 450px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  background-color: #eee;
+  text-align: center;
+  display: flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction:column;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s ease;
+  transition-timing-function: ease-in-out;
+  background-color: #e1caef;
+}
+.free-box:hover .overlay {
+  opacity: 1;
+}
+.text-hover {
+  color: black;
+  font-size: 14px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  position: absolute;
+  text-align: left;
+  padding: 15px;
+}
+
+
+/* --- FOOTER START --- */
+
+.footer {
+  width: 100%;
+  height: 530px;
+  background-color: #eee;
+}
+.toamlogofooter img {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  width: 70px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer p {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+}
+.socialcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 150px;
+  bottom: 50px;
+  margin: 0 auto;
+}
+.facebook:hover, .instagram:hover, .twitter:hover {
+  opacity: 1;
+}
+.facebook {
+  color: #E91E63;
+  width: 50px;
+  border-right: 0;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0.5;
+}
+.instagram {
+  color: #E91E63;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0.5;
+}
+.twitter {
+  color: #E91E63;
+  border-left: 0;
+  padding: 10px;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0.5;
+}
+
+/* --- SOCIAL MEDIA END --- */
+
+
+
+
+
+
+
+/* --- FOOTER END --- */
+
+
+</style>
+
+
+
+
+<body>
+
+
+
+<!-- LOGO & NAV BAR START -->
+
+<div class="toamlogo">
+   <img src="toamlogo.png"/>
+</div>
+
+<div class="nav-grid-container">
+  <div class="item1"><a class="nav-link" href="about.html">ABOUT</a></div>
+  <div class="item2"><a class="nav-link" href="services.html">SERVICES</a></div>
+  <div class="item3"><a class="nav-link" href="products.html">PRODUCTS</a></div>
+  <div class="item4"><a class="nav-link" href="contact.html">CONTACT</a></div>
+</div>
+
+<!-- LOGO & NAV BAR END -->
+
+
+
+
+
+
+
+
+
+<div class="free-grid-container">
+
+  <div class="free-box">
+    <div class="text-no-hover">Frames</div>
+      <div class="overlay">
+        <div class="text-hover">
+          At The Opticians at Marchmont, we aim to provide a fantastic choice of frame styles and colours suitable for all. We understand that glasses have now become more of a fashion accessory and , therefore, our well trained and knowledgeable staff offer expert advice on which frame highlights your best features and best suits your lens type.
+          <br><br>
+          Our regularly updated range of frames ensures you will be wearing the most up to date frames in line with the changes in fashion.
+          <br>
+          Choose a frame from such as Oscar & Fitch, Jai Kudo, JK London, Guess, Gant, John Rocha, Paul Costelloe, Julien Beaumont, Ray Ban, Prada, Vogue, Oakley, William Morris, Janet Reger, Silhouette, Gucci, Hugo Boss, Tom Ford and Police.
+          <br>
+          We also have safety glasses and VDU frames.
+          <br>
+          Prices of frames range from £10.00 - £160.00
+          <br>
+          We will soon be announcing an exciting new range of frames.
+        </div>
+      </div>
+    </div>
+
+  <div class="free-box">
+    <div class="text-no-hover">Lenses</div>
+      <div class="overlay">
+        <div class="text-hover">
+          As a “Varilux Specialist” practice, our lenses offer the high quality and performance synonymous with the Varilux brand. We also dispense other brands of lenses such as Zeiss and Seiko.
+          <br>
+          When we give our advice in choosing the right frame for you, we also consider what lens is best suited. We listen to our patients needs.
+          <br><br>
+          The choice of most people now is to have their lenses as thin and as flat as possible. In addition to this, is to have an anti-reflection coating on the lenses. This makes the lens look cosmetically better and helps reduce deep scratching and guards against distracting light reflection. Our most advanced lenses carry a two year guarantee against scratches and defects.
+          <br><br>
+          For those who have a varifiocal prescription, we offer a varied range of lenses that provide ever more effective visual acuity with more natural vision that best suits each individual’s needs. Our Varilux lenses adapt to every presbyopic patient no matter what their lifestyle and visual requirements are.
+          <br><br>
+          Most lenses can now be ordered to incorporate the photochromic element which automatically adapt to all changing light conditions to reduce eye fatigue and eye strain. Lenses can also be tinted for those with light sensitive eyes, perfect for driving as colour perception remains constant and ideal as sun lenses thanks to the UV protection they provide.
+          <br><br>
+          Prices of single vision lenses start from £39.00.
+          <br>
+          Prices of bifocal lenses start from £60.00
+          <br>
+          Prices of varifocal lenses start from £120.00
+        </div>
+      </div>
+  </div>
+
+  <div class="free-box">
+    <div class="text-no-hover">Contact Lenses</div>
+      <div class="overlay">
+        <div class="text-hover">
+          At The Opticians at Marchmont, we firmly believe that all people who require vision correction should have the option of wearing contact lenses. Contact lenses bring you the freedom from glasses every day, when playing sport or going out to special occasions. We will advise you on the best contact lens for your needs and all our lenses come with a competitive price (that includes solution and after-care appointments whenever you require) and payment plan/method. We stock all major brands of contact lenses.
+          <br><br>
+          Major advances in technology now mean that lenses are more comfortable and easier to wear than ever before. We fit all lenses from daily disposable to extended wear and gas permeable also.
+          <br>
+          We offer a free contact lens trial service to anyone so make sure to take us up on this. For first time wearers, the optometrist will place a lens on your eyes to see the difference and benefits from glasses. We will then teach you how to handle the lenses, insert and remove them and care for them before letting you to take them home for an extended trial.
+          <br><br>
+          We also are happy for youngsters to try lenses if they are unhappy with wearing glasses as we appreciate difficulty that can be caused.
+          <br>
+          Prices of contact lenses start from £10.00
+        </div>
+      </div>
+  </div>
+
+  <div class="free-box">
+    <div class="text-no-hover">Sunglasses</div>
+      <div class="overlay">
+        <div class="text-hover">
+          The sun is a source of well-being and pleasure and has beneficial effects providing we don’t over use it. Protection from the sun is as important for the eyes as it is for your skin.
+          <br><br>
+          We stock a wide range of prescription and non-prescription sunglasses to suit your taste and needs and range from high street fashion to sporting sunglasses.
+          <br><br>
+          Polarised lenses are the complete sunwear solution. The benefits include glare reduction, enhanced colour perception, improved contrast, greater visual comfort and 100% UVA/UVB protection. They are fantastic for driving in all road conditions and elements and, for sport, they are the ultimate in water and winter sports.
+          <br><br>
+          Prices of sunglasses range from £5.00 (kids), £10.00 - £160.00(adults)
+          <br>
+          We provide free sunglasses to all kids who have their eyes tested for the first time.
+        </div>
+      </div>
+  </div>
+
+  <div class="free-box">
+    <div class="text-no-hover">Sports Eyewear</div>
+      <div class="overlay">
+        <div class="text-hover">
+          In addition to us providing eyecare for footballers from Heart of Midlothian FC, Hibernian FC, Raith Rovers FC, East Fife FC and Arbroath FC, we stock an exciting and vibrant range of sports eyewear for every other sport that requires protection.
+          <br>
+          We have Oakley frames which are a high quality, lightweight, effective, stylish and safe performance eyewear at affordable prices. The Oakley range is suitable for a wide array of active sports and come with accessories, such as interchangeable lenses, to enhance your visual needs. There are also frames that come with a prescription insert.
+          <br><br>
+          Prices of our sports eyewear range from £18.00 - £100.00
+          <br>
+          We stock a wide range of sunglasses all year round, covering all styles from high fashion to classics and sporting sunglasses.
+        </div>
+      </div>
+  </div>
+
+</div>
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+
+
+
+<!-- FOOTER START -->
+
+<div class="footer">
+  <div class="toamlogofooter">
+     <img src="toamlogofooter.png"/>
+  </div>
+
+  <p>
+    Opening hours:
+    <br>
+    Monday - Friday:
+    9:00 – 17:00
+    <br>
+    Saturday:
+    9:00 – 12:00
+  </p>
+
+  <!--- Social Links Start --->
+
+  <div class="socialcontainer">
+  	<a target="_blank" href="https://www.facebook.com/The-Opticians-at-Marchmont-121567354159/">
+        <div class="facebook">
+      	   <img src="facebook.svg"/>
+      	</div>
+    </a>
+
+    <a target="_blank" href="https://twitter.com/@THE_OAM">
+      	<div class="twitter">
+      	   <img src="twitter.svg">
+      	</div>
+    </a>
+
+    <a target="_blank" href="https://www.instagram.com/theopticiansatmarchmont/">
+        <div class="instagram">
+           <img src="instagram.svg"/>
+        </div>
+    </a>
+
+  </div>
+
+  <!--- Social Links End --->
+
+
+
+
+
+
+
+
+<br>
+  <p>
+    0131 662 9440
+    <br><br>
+    26 Warrender Park Road,Edinburgh, EH9 1JG
+    <br><br>
+    Gargaro & Hislop Ltd. Registered in Scotland: SC 433518
+  </p>
+
+</div>
+
+<!-- FOOTER END -->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
