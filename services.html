@@ -66,65 +66,69 @@ a.nav-link:hover {
 
 
 /* --- FREE BOXES START --- */
-
 .free-grid-container {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   width: 100%;
-  padding-top: 100px;
 }
 .free-box {
   position: relative;
   width: 300px;
   max-width: 100%;
-  margin: 10px;
+  margin: 18px;
+  width: 300px;
+  height: 180px;
+  padding-top: 10px;
+  background-color: #eee;
+  text-align: left;
+  display: flex;
+  flex-direction:column;
 }
 .text-no-hover {
-	width: 300px;
-  height: 200px;
-  font-size: 25px;
+  padding: 0px 50px 0px 50px;
+}
+.text-no-hover > h1 {
+  font-size: 40px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  line-height: 40px;
+  opacity: 0.7;
+}
+.text-no-hover > p {
+  margin-top: -12px;
+  font-size: 22px;
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
-  background-color: #eee;
-  text-align: center;
-  display: flex;
-  justify-content:center;
-  align-content:center;
-  flex-direction:column;
+  opacity: 0.6;
 }
 .overlay {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: 0.7s ease;
   transition-timing-function: ease-in-out;
-  background-color: #e1caef;
+  background-color: #eee;
 }
 .free-box:hover .overlay {
   opacity: 1;
-  /* cursor: pointer; */
 }
 .text-hover {
   color: black;
-  font-size: 17px;
+  font-size: 22px;
   color: black;
   font-family: 'Lato', sans-serif;
   font-weight: lighter;
-  position: absolute;
-  text-align: left;
-  padding: 15px;
+  opacity: 0.7;
   text-align: center;
   position: relative;
   top: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
+  transform: translateY(-55%);
+  padding: 15px;
+
 }
 
 /* --- FREE BOXES END --- */
@@ -208,20 +212,29 @@ a.nav-link:hover {
 <!-- LOGO & NAV BAR END -->
 
 
+
+
+
 <div class="free-grid-container">
 
   <div class="free-box">
-    <div class="text-no-hover">Free NHS Sight Test</div>
-      <div class="overlay">
-        <div class="text-hover">
-          Sight tests are free for everyone, funded by NHS Scotland.
-        </div>
+    <div class="text-no-hover">
+      <h1>Free<br>—</h1>
+      <p>NHS Sight Test</p>
+    </div>
+    <div class="overlay">
+      <div class="text-hover">
+        Sight tests are free for everyone, funded by NHS Scotland.
       </div>
     </div>
+  </div>
 
   <div class="free-box">
-    <div class="text-no-hover">Free NHS Low Vision Service</div>
-      <div class="overlay">
+    <div class="text-no-hover">
+      <h1>Free<br>—</h1>
+      <p>NHS low vision test</p>
+    </div>
+    <div class="overlay">
         <div class="text-hover">
           We work with the NHS to provide a low vision service for those are registered blind, partially sighted or width reduced vision.
         </div>
@@ -229,8 +242,11 @@ a.nav-link:hover {
   </div>
 
   <div class="free-box">
-    <div class="text-no-hover">Free Home Visits</div>
-      <div class="overlay">
+    <div class="text-no-hover">
+      <h1>Free<br>—</h1>
+      <p>Home Visits</p>
+    </div>
+    <div class="overlay">
         <div class="text-hover">
           If you are unfit to come into our practice, we will come to your home.
         </div>
@@ -238,32 +254,34 @@ a.nav-link:hover {
   </div>
 
   <div class="free-box">
-    <div class="text-no-hover">Free Hearing Tests</div>
-      <div class="overlay">
+    <div class="text-no-hover">
+      <h1>Free<br>—</h1>
+      <p>Home Visits</p>
+    </div>
+    <div class="overlay">
         <div class="text-hover">
-           This can be done in the practice or at your home.
+          This can be done in the practice or at your home.
         </div>
       </div>
   </div>
 
   <div class="free-box">
-    <div class="text-no-hover">NHS & Kids Glasses</div>
-      <div class="overlay">
+    <div class="text-no-hover">
+      <h1>Free<br>—</h1>
+      <p>NHS Kids Glasses</p>
+    </div>
+    <div class="overlay">
         <div class="text-hover">
-          Those in receipt of relevant NHS benefits qualify for free glasses from our NHS range and a discount on all our other ranges. Kids glasses are free as are any replacements due to loss or damage.
+          We can do basic repairs in the practice and will do all we can to fix more complicated problems.
         </div>
-      </div>
-  </div>
-
-  <div class="free-box">
-    <div class="text-no-hover">Repairs</div>
-      <div class="overlay">
-        <div class="text-hover">
-          Repairs – we can do basic repairs in the practice and will do all we can to fix more complicated problems.
+        </div>
       </div>
   </div>
 
 </div>
+
+
+
 
 
 
