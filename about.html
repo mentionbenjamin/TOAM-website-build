@@ -235,6 +235,7 @@ a.nav-link:hover {
 /* --- MEET THE TEAM END --- */
 
 
+
 /* --- FOOTER START --- */
 
 .footer {
@@ -243,19 +244,52 @@ a.nav-link:hover {
   background-color: #eee;
 }
 .toamlogofooter img {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  width: 70px;
+  margin-bottom: 60px;
+  width: 60px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .footer p {
-  padding-top: 30px;
   text-align: center;
   font-size: 15px;
-  padding-bottom: 30px;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
 }
+.socialcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 150px;
+  bottom: 50px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.facebook:hover, .instagram:hover, .twitter:hover {
+  opacity: 1;
+}
+.facebook {
+  color: #E91E63;
+  border-right: 0;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0.5;
+}
+.instagram {
+  color: #E91E63;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0.5;
+}
+.twitter {
+  color: #E91E63;
+  border-left: 0;
+  text-align: center;
+  transition: all 0.5s ease 0s;
+  opacity: 0.5;
+}
+
+/* --- SOCIAL MEDIA END --- */
 
 /* --- FOOTER END --- */
 
@@ -405,20 +439,19 @@ a.nav-link:hover {
 
 
 
-
-
-
-
-
 <!-- FOOTER START -->
 
 <div class="footer">
-  <div class="toamlogofooter">
-     <img src="toamlogofooter.png"/>
-  </div>
+
+  <br><br><br><br><br>
+
+  <a class="footerlogo" href="about.html">
+    <div class="toamlogofooter">
+       <img src="toamlogofooter.png"/>
+    </div>
+  </a>
 
   <p>
-
     Opening hours:
     <br>
     Monday - Friday:
@@ -426,8 +459,35 @@ a.nav-link:hover {
     <br>
     Saturday:
     9:00 – 12:00
+  </p>
 
-    <br><br><br>
+  <!--- Social Links Start --->
+
+  <div class="socialcontainer">
+  	<a target="_blank" href="https://www.facebook.com/The-Opticians-at-Marchmont-121567354159/">
+        <div class="facebook">
+      	   <img src="facebook.svg"/>
+      	</div>
+    </a>
+
+    <a target="_blank" href="https://twitter.com/@THE_OAM">
+      	<div class="twitter">
+      	   <img src="twitter.svg">
+      	</div>
+    </a>
+
+    <a target="_blank" href="https://www.instagram.com/theopticiansatmarchmont/">
+        <div class="instagram">
+           <img src="instagram.svg"/>
+        </div>
+    </a>
+
+  </div>
+
+  <!--- Social Links End --->
+
+<br>
+  <p>
     0131 662 9440
     <br><br>
     26 Warrender Park Road,Edinburgh, EH9 1JG
@@ -438,47 +498,6 @@ a.nav-link:hover {
 </div>
 
 <!-- FOOTER END -->
-
-
-
-
-
-<!--- Social Links Start --->
-
-<div class="socialcontainer">
-	<a target="_blank" href="https://www.linkedin.com/in/ben-robinson-158a06113">
-      <div class="linkedin">
-    	   <img src="linkedin.svg"/>
-    	</div>
-  </a>
-  <a class="githubsvg" target="_blank" href="https://www.github.com/mentionbenjamin">
-    	<div class="github">
-    	   <img src="github.svg"/>
-    	</div>
-  </a>
-  <a class="mailsvg" href="mailto:mentionbenjamin@gmail.com">
-    	<div class="mail">
-    	   <img src="mail.svg">
-    	</div>
-  </a>
-</div>
-
-<!--- Social Links End --->
-
-
-
-
-
-
-
-
-
-<!-- JAVASCRIPT START -->
-
-<script>
-
-</script>
-
 
 
 
