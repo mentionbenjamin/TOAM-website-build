@@ -104,15 +104,15 @@ a.nav-link:hover {
 
 /* --- SOCIAL MEDIA START --- */
 
-.socialcontainer {
+.socialcontainertop {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 10px;
 }
-.facebook:hover, .instagram:hover, .twitter:hover {
+.facebooktop:hover, .instagramtop:hover, .twittertop:hover {
   opacity: 1;
 }
-.facebook {
+.facebooktop {
     color: #918d5b;
     border-right: 0;
     padding: 10px 10px 10px 0px;
@@ -120,14 +120,14 @@ a.nav-link:hover {
     transition: all 0.5s ease 0s;
     opacity: 0.4;
 }
-.instagram {
+.instagramtop {
     color: #918d5b;
     padding: 10px;
     text-align: center;
     transition: all 0.5s ease 0s;
     opacity: 0.4;
 }
-.twitter {
+.twittertop {
     color: #918d5b;
     border-left: 0;
     padding: 10px;
@@ -181,12 +181,9 @@ a.nav-link:hover {
 }
 
 
-
-
 /* --- FOOTER START --- */
 
 .footer {
-  width: 100%;
   height: 530px;
   background-color: #eee;
 }
@@ -196,6 +193,12 @@ a.nav-link:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+a.footerlogo {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 60px;
 }
 .footer p {
   text-align: center;
@@ -240,12 +243,7 @@ a.nav-link:hover {
 
 /* --- FOOTER END --- */
 
-
-
-
-
 </style>
-
 
 
 
@@ -293,21 +291,21 @@ a.nav-link:hover {
 
   <!--- Social Links Start --->
 
-  <div class="socialcontainer">
+  <div class="socialcontainertop">
   	<a target="_blank" href="https://www.facebook.com/The-Opticians-at-Marchmont-121567354159/">
-        <div class="facebook">
+        <div class="facebooktop">
       	   <img src="facebook.svg"/>
       	</div>
     </a>
 
     <a target="_blank" href="https://www.instagram.com/theopticiansatmarchmont/">
-        <div class="instagram">
+        <div class="instagramtop">
            <img src="instagram.svg"/>
         </div>
     </a>
 
     <a target="_blank" href="https://twitter.com/@THE_OAM">
-      	<div class="twitter">
+      	<div class="twittertop">
       	   <img src="twitter.svg">
       	</div>
     </a>
